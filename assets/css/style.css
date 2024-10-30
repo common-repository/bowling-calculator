@@ -1,0 +1,136 @@
+.btn {
+  border: none;
+  background-color: white;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #fafad2;
+}
+
+.btn-reset {
+  border: none;
+  background-color: white;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 10px;
+  background-color: #e20d0d;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn-reset:hover {
+  background-color: rgba(226, 13, 13, 0.7);
+}
+
+.bowling-calculator {
+  margin: 20px;
+}
+
+.bowling-calculator .keyboard {
+  margin: 20px 0;
+}
+
+.bowling-calculator .keyboard .keyboard-heading {
+  margin: 10px 0;
+}
+
+.bowling-calculator .keyboard .bowling-calculator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bowling-calculator .keyboard .bowling-calculator p {
+  display: block;
+}
+
+.bowling-calculator .keyboard .bowling-calculator .hidetd {
+  display: none;
+}
+
+.bowling-calculator .scoreBoard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bowling-calculator .scoreBoard .score-card {
+  width: 110px;
+  text-align: center;
+  border: 1px solid;
+  border-right: 0;
+}
+
+.bowling-calculator .scoreBoard .score-card:last-child {
+  border-right: 1px solid;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-heading {
+  background-color: #bbbb9d;
+  padding: 4px 0;
+  border-bottom: 1px solid;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-body {
+  background-color: #fafad2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-body .point-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-body .point-row .score-p {
+  height: 30px;
+  padding: 6px 0;
+  width: 50%;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-body .point-row .score-p2 {
+  border: 1px solid;
+  border-top: 0;
+  border-right: 0;
+}
+
+.bowling-calculator .scoreBoard .score-card .score-body .result-row {
+  padding: 8px 0;
+  height: 30px;
+}
+
+.bowling-calculator .scoreBoard .score-card .activeBG {
+  background-color: #e0ffff;
+}
+
+.bowling-calculator .scoreBoard .score-card-10 .score-body .point-row .score-p2 {
+  border-right: 1px solid;
+}
+
+.bowling-calculator .scoreBoard .score-card-10 .score-body .point-row .score-p3 {
+  border-bottom: 1px solid;
+}
+
+.bowling-calculator .scoreBoard .result-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.bowling-calculator .scoreBoard .result-card .score-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+}

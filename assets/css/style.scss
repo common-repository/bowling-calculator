@@ -1,0 +1,127 @@
+.btn {
+  border: none;
+  background-color: white;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    background-color: #fafad2;
+  }
+}
+
+.btn-reset {
+  border: none;
+  background-color: white;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 10px;
+  background-color: rgb(226, 13, 13);
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+
+  &:hover {
+    background-color: rgba(226, 13, 13, 0.7);
+  }
+}
+
+.bowling-calculator {
+  margin: 20px;
+  .keyboard {
+    margin: 20px 0;
+    .keyboard-heading {
+      margin: 10px 0;
+    }
+    .bowling-calculator {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      p {
+        display: block;
+      }
+
+      .hidetd {
+        display: none;
+      }
+    }
+  }
+  .scoreBoard {
+    display: flex;
+    flex-wrap: wrap;
+    .score-card {
+      width: 110px;
+      text-align: center;
+      border: 1px solid;
+      border-right: 0;
+
+      &:last-child {
+        border-right: 1px solid;
+      }
+      .score-heading {
+        background-color: #bbbb9d;
+        padding: 4px 0;
+        border-bottom: 1px solid;
+      }
+      .score-body {
+        background-color: #fafad2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .point-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .score-p {
+            height: 30px;
+            padding: 6px 0;
+            width: 50%;
+          }
+          .score-p2 {
+            border: 1px solid;
+            border-top: 0;
+            border-right: 0;
+          }
+        }
+        .result-row {
+          padding: 8px 0;
+          height: 30px;
+        }
+      }
+
+      .activeBG {
+        background-color: #e0ffff;
+      }
+    }
+
+    .score-card-10 {
+      .score-body {
+        .point-row {
+          .score-p2 {
+            border-right: 1px solid;
+          }
+          .score-p3 {
+            border-bottom: 1px solid;
+          }
+        }
+      }
+    }
+
+    .result-card {
+      display: flex;
+      flex-direction: column;
+      .score-body {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 70px;
+      }
+    }
+  }
+}
